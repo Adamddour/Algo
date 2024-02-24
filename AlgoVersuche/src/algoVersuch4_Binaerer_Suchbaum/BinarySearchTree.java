@@ -59,20 +59,20 @@ public class BinarySearchTree {
     
 
     //1.2
-    private String print_structure(Treenode node) {
+    /*private String print_structure(Treenode node) {
         return (node != null) ? node.wert + " { " 
     + print_structure(node.firstChild) 
     + print_structure(node.secondChild) 
     + " } " : " null ";
         
-    }
+    }*/
     //1.2
     public String print() {
         return print_structure(root);
     }
     
     /********Oder************/
-    /*private String print_structure(Treenode node) {
+    private String print_structure(Treenode node) {
 		String print = "";
 		if (node.firstChild != null) {
 			 print += print_structure(node.firstChild);
@@ -82,7 +82,7 @@ public class BinarySearchTree {
 			 print += print_structure(node.secondChild);
 		}
 		return print;
-	}*/
+	}
   //Ende_1.2
     /***************************/
     
