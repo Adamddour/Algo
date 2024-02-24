@@ -31,7 +31,7 @@ public class Rekursion {
 		for (int i = 1; i <=n ; i++) {
 			returnValue=returnValue*i;
 		}
-		return returnValue;
+		return returnValue;////
 	}
 	
 
